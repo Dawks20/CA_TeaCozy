@@ -1,0 +1,161 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.header {
+    display: inline-flex;
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    z-index: 1;
+    opacity: 1;
+    left: 0;
+    top: 0;
+    background-color: black;
+}
+
+.logo-container {
+    position: fixed;
+    left: 0;
+}
+
+.nav-container {
+    position: fixed;
+    right: 0;
+    border-bottom: 1px solid seashell;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+    display: block;
+}
+
+.nav {
+    float: right;
+    list-style: none;
+    
+}
+
+.nav li {
+    display: inline;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+#background-img {
+    z-index: -1;
+    height: 700px;
+    width: auto;
+    opacity: .9;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: .3em;
+    opacity: .9;
+}
+
+h4 {
+    font-size: 22px;
+    margin: .3em;
+    opacity: .9;
+}
+
+.mission-text   {
+    position: absolute;
+    top: 270px;
+    text-align: center;
+    background-color: black;
+    height: auto;
+    width: 100%;
+    opacity: 1;
+    line-height: 150%;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-tea   {
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: row;
+    }
+
+.tea-of-month   {
+    text-align: center;
+    line-height: 150%;
+    order: -1;
+    flex: 1 0 100%;
+    }
+
+.tea-flex  {
+    gap: 25px;
+    justify-content: center;
+    }
+
+.teas {
+    height: 200px;
+    width: 300px;
+    padding: 15px;
+}
+
+.locations {
+ background-image: url("./img-locations-background.jpg");
+ max-width: 1200px;
+ display: flex;
+ align-content: center;
+ min-height: 550px;
+ background-repeat: no-repeat;
+ margin: 0 auto;
+ flex-wrap: wrap;
+ justify-content: center;
+ }
+
+.flex-item-locations {
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    margin: 15px 20px;
+    background-color: black;
+    opacity: 1;
+    line-height: 1.7;
+}
+
+.title  {
+    flex: 1 0 100%;
+    max-width: 1200px;
+    background-color: transparent;
+    margin-top: 0;
+}
+
+.title h1 {
+    background-color: transparent;
+    opacity: 1;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.bottom-title   {
+    height: 200px;
+}
+
+.bottom-title h1 {
+    font-size: 46px;
+    margin-top: 5px;
+}
+
+.footer h5 {
+    text-align: left;
+    margin-left: 20px;
+}
